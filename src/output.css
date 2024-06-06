@@ -588,6 +588,11 @@ video {
   }
 }
 
+.nav-link:hover {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
 .absolute {
   position: absolute;
 }
@@ -895,11 +900,6 @@ video {
 .placeholder-yellow-500::placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(234 179 8 / var(--tw-placeholder-opacity));
-}
-
-.hover\:text-black:hover {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .hover\:text-cyan:hover {
